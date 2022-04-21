@@ -1,7 +1,15 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "custom-blue": "#00baff",
+        "custom-purple": "#6336fa",
+      },
+    },
+    FontFamily: {
+      Poppins: ["'Poppins'", "sans-serif"],
+    },
   },
   plugins: [],
 };

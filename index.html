@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Design Using Tailwind CSS</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-Poppins grid place-content-center min-h-screen">
+    <div class="flex flex-col 
+    rounded-lg shadow-md">
+      <img
+        src="blackforest.jpg"
+        alt="burger"
+        class="max-h-36 w-[200x] rounded-t-md"
+      />
+      <div class="p-4">
+        <h1 class="text-2xl mb-1">Black Forest Cake</h1>
+        <h2 class="text-sm mb-1 text-zinc-600">4.8/5 Stars (400 Reviews)</h2>
+        <p class="text-base  text-zinc-600">Rs 50</p>
+      </div>
+      
+        <button class=" mb-2 w-[100px]  btn hover:bg-black duration-300">
+          Add to cart
+        </button>
+    
+      </div>
+    </div>
+  </body>
+</html>

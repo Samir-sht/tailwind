@@ -1,5 +1,23 @@
 {
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tailwindcss -i ./src/input.css -o dist/output.css --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samir-sht/tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samir-sht/tailwind/issues"
+  },
+  "homepage": "https://github.com/Samir-sht/tailwind#readme",
   "devDependencies": {
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.24"
   }
 }
